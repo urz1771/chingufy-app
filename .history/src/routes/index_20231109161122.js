@@ -1,0 +1,12 @@
+import React from "react";
+import {Route} from "wouter";
+
+import Login from "../views/Login/login";
+
+export default function Routes() {
+  return (
+    <Route>
+      <Route component={Login} path="/"/>
+    </Route>
+  );
+}
